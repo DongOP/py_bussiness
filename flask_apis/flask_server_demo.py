@@ -15,7 +15,7 @@ app = Flask(__name__)
     所有的json传对应的value值都为随机的
 """
 # get 请求调用的次数
-http_call_times = 1
+http_call_times = 0
 
 
 # 生成随机字符串
@@ -53,15 +53,19 @@ def get_call_times():
 def query():
     return jsonify(
         calltimes = get_call_times(),
-        username="Dong",
-        password="123321"
+        username = "Dong",
+        password = "123321"
         )
 
 # http POST
 @app.route("/update", methods=["POST"])
 def update():
-    
-    return make_response()
+    return jsonify(
+        calltimes = get_call_times(),
+        username = request.form['username'],
+        password = request.form['password']
+    )
+    # return make_response()
 
 
 # http delete
