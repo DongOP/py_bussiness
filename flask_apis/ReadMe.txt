@@ -1,7 +1,7 @@
-¹ØÓÚ falsk_apis:
+å…³äº flask_apis:
 
-	¿ª·¢»·¾³£ºPython 3.6.3
-	¿ª·¢¹¤¾ß£ºSublime
-	¿ò¼Ü£ºFlask
+	å¼€å‘ç¯å¢ƒï¼šPython 3.6.3
+	å¼€å‘å·¥å…·ï¼šSublime
+	æ¡†æ¶ï¼šFlask
 
-ĞèÒª±¾µØ°²×° Python3 ºÍ Flask¡£
+éœ€è¦æœ¬åœ°å®‰è£… Python3 å’Œ Flaskã€‚
